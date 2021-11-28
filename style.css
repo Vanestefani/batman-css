@@ -1,0 +1,115 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  margin: 0;
+  padding: 0;
+}
+.ovalo {
+  background: yellow;
+  width: 230px;
+  height: 130px;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.logo {
+  background: black;
+  width: 212px;
+  height: 112px;
+  border-radius: 50%;
+  position: absolute;
+}
+.ol1 {
+  background: yellow;
+  width: 38px;
+  height: 70px;
+  border-radius: 50%;
+  position: absolute;
+  left: 44px;
+  top: 67px;
+  transform: rotate(-46deg);
+}
+.ol2 {
+  background: yellow;
+  width: 38px;
+  height: 70px;
+  border-radius: 50%;
+  position: absolute;
+  right: 44px;
+  top: 67px;
+  transform: rotate(46deg);
+}
+.ol3 {
+  background: yellow;
+  width: 38px;
+  height: 70px;
+  border-radius: 50%;
+  position: absolute;
+  right: 68px;
+  top: 73px;
+  transform: rotate(15deg);
+}
+.ol4 {
+  background: yellow;
+  width: 38px;
+  height: 70px;
+  border-radius: 50%;
+  position: absolute;
+  left: 68px;
+  top: 73px;
+  transform: rotate(-15deg);
+}
+.ol5 {
+  background: yellow;
+  width: 37px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  left: 57px;
+  top: 0;
+  transform: rotate(-15deg);
+}
+.ol6 {
+  background: yellow;
+  width: 37px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  right: 57px;
+  top: 0;
+  transform: rotate(-15deg);
+}
+.cua1 {
+  background: yellow;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  left: 74px;
+}
+.cua2 {
+  background: yellow;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  right: 74px;
+}
+.orejas {
+  background: yellow;
+
+  position: absolute;
+  top: 0;
+  left: 95px;
+  border-bottom: 12px solid yellow;
+  border-left: 6px solid black;
+  border-right: 6px solid black;
+  width: 10px;
+  transform: rotate(180deg);
+}
